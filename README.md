@@ -50,7 +50,7 @@ SNR_ADC (dB) = 6.02N + 1.76
 - **16-bit ADC → +30 dB SNR improvement**  
 
 ### **3️⃣ Sampling Rate & SNR Improvement**
-Higher **sampling rate (\(f_s\))** reduces aliasing and spreads quantization noise:
+Higher **sampling rate fs** reduces aliasing and spreads quantization noise:
 
 $$
 \text{SNR}_{\text{OS}} (\text{dB}) = 10 \log_{10}(\text{OSR})
