@@ -25,9 +25,8 @@ GNSS receivers are increasingly vulnerable to **interference**, including:
 ### **1️⃣ Multi-Antenna Processing & SNR Improvement**
 Multi-antenna systems **enhance SNR** through coherent signal processing:
 
-$$
-\text{SNR}_{\text{array}} (\text{dB}) = \text{SNR}_{\text{single}} (\text{dB}) + 10\log_{10}(N)
-$$
+SNR_array (dB) = SNR_single (dB) + 10 log_10(N)
+
 *Equation adapted from:*
 
 > Nossek, J. A., & Ivrlac, M. T. (2008). The why and how of multiantenna systems. *2008 International ITG Workshop on Smart Antennas*, 1-8. https://doi.org/10.1109/WSA.2008.4475529
@@ -39,9 +38,8 @@ $$
 ### **2️⃣ ADC Resolution & SNR Improvement**
 Higher ADC bit depth reduces quantization noise:
 
-$$
-\text{SNR}_{\text{ADC}} (\text{dB}) = 6.02N + 1.76
-$$
+SNR_ADC (dB) = 6.02N + 1.76
+
 *Equation adapted from:*
 > W. R. Bennett, *"Spectra of quantized signals,"* in *The Bell System Technical Journal*, vol. 27, no. 3, pp. 446-472, July 1948, doi: [10.1002/j.1538-7305.1948.tb01340.x](https://doi.org/10.1002/j.1538-7305.1948.tb01340.x).
 
